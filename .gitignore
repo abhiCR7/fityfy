@@ -1,0 +1,13 @@
+lms-dump/
+dump/
+.DS_Store
+.idea/
+node_modules/
+bower_components/
+client/
+*.log
+uploads/
+~*.xlsx
+**/tmp/
+client-config/build
+client-config/dist
