@@ -1,1 +1,1 @@
-web: ./node_modules/forever/bin/forever start  bin/fitify
+web: node  bin/fitify
