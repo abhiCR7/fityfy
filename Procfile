@@ -1,1 +1,1 @@
-web: ./node_modules/pm2/bin/pm2 start  bin/fitify
+web: ./node_modules/forever/bin/forever start  bin/fitify
