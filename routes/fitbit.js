@@ -51,8 +51,7 @@ var callbackHandler = function (req, res, next) {
                 console.log('Couldn\'t save for user',userId,err);
             } else {
                 console.log('Saved user Record for ',userId);
-                res.redirect(301,
-                    "https://fitifyapp.herokuapp.com/open");
+                res.render('auth_complete',{});
             }
         });
         
