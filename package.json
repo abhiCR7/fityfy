@@ -1,9 +1,11 @@
 {
-  "name": "init",
+  "name": "fitify",
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": " ./node_modules/pm2/bin/pm2 start  bin/fitify",
+    "stop" : " ./node_modules/pm2/bin/pm2 stop  fitify",
+    "restart" : "./node_modules/pm2/bin/pm2  restart fitify"
   },
   "dependencies": {
     "body-parser": "~1.15.1",
