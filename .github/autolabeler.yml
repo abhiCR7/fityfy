@@ -1,0 +1,4 @@
+tests: ["test"]
+docs: ["*.md", "docs/", "LICENSE"]
+config: [".github", ".travis*"]
+dependency: ["package.json"]
